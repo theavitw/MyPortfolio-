@@ -1,0 +1,245 @@
+
+.container{
+    max-width: 1250px;
+    /* width: 90%; */
+    /* margin: auto 0;   */
+    /* border: 10px solid rgb(0, 0, 0);     */
+    margin:0 auto;
+}
+.features{
+    padding: 2rem 0;
+    /* background-color: aqua;    */
+    /* background-image: url("../../../Downloads/download.jfif"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    /* align-items: center; */
+    
+}
+.box{
+    width:32.3%;
+    float:left;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2 rem;
+    text-align: center;
+    height: 10rem;
+    font-weight: 800px;
+}
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box-1, .box3{
+    /* background-color: rgb(21, 6, 228); */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: cornsilk;
+}
+.box2{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.footer{
+    height: 100px;
+    background-color: #263238;
+    text-align: center;
+    /* background-blend-mode: lighten; */
+}
+.social{
+    padding-top: 1rem;
+     color: cornsilk;
+}
+.fa-2x{
+    padding: 10px;
+    
+}
+.about{
+    padding: 3rem 0;
+    margin-left: 55px;
+    font-family:cursive;
+}
+.about1{
+    border-bottom: 6px solid red;
+    
+}
+.about-body{
+    background-color: #ddaed3 ;
+}
+.about_p{
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.left{
+    float: left;
+    /* padding-right: 26% ;  */
+}
+.right{
+    float: right;
+    padding-right: 50%;
+    
+}
+.wrapper{
+    padding-top: 30px ;
+    font-weight: bold;
+    
+}
+ul{
+    list-style-type:none;
+   
+}
+.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.or1 ul li::before{
+   content: '\2713';    
+   color: rgb(3, 42, 105);
+   font-weight: 2200px;
+   font-size: 20px;
+   padding-right: 5px;
+}
+.count-item{
+    display: inline-table;
+    
+
+}
+.count{
+    padding-top: 2rem;
+    
+}
+.count div{
+    margin-right: 5rem;
+    padding-right: 2rem ;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.count-item span{
+    color: red;
+    size: 16px;
+    padding: 25%;
+}
+.bannerop{
+    display: flex;
+    color: rgba(255, 255, 255, 0.624);
+    
+    background-color: rgba(0, 0, 0, 0.507);
+    font-weight: 500;
+   
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    
+    justify-content:center;
+}
+.banner{
+    background-color: rgb(218, 54, 54);
+    margin-top: 2rem;
+    text-align: center;
+}
+.banner-a{
+    color: wheat;
+    text-decoration: none;
+}
+.banner-pera{
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+}
+
+.bannerop :hover{
+    background-color:rgba(0, 0, 0, 0.635);
+    
+    
+    color: #ffffff;
+}
+.contact-from{
+    padding: 5rem 0;
+    font-size: 1rem;
+    /* padding-left: 6em; */
+    /* background-color: #f7f7f7; */
+}
+.company-address{
+    background-color: #fff;
+    width: 49%;
+    float: left;
+}
+.form{
+    background-color: #fff;
+    float: right;
+    width: 49%;
+}
+.form-wrapper ::after{
+    content: "";
+    display:block;
+    clear:both ; 
+}
+.imgeb{
+    min-width: 30%;
+    padding: 1rem 2rem;
+    width: 150px;
+    display: flex;
+}
+.address-group p{
+    font-style: bold;
+}
+.address-group h2{
+    display: inline-block;
+    color: crimson;
+}
+.address-group{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.contact-body{
+        background-color: #f7f7f7;
+}
+@media (max-width: 800px) {
+   html
+    {
+        font-size: 50%;    
+    }
+    .navbar .logo ,.navbar .navitems{
+        /* padding: 0px; */
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        /* margin:0px; */
+    }
+    .row{
+        height: auto;
+        width: 100%;
+
+    }
+    .row .imgbox,.row .textb{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box{
+        float: none;
+        width: 90%;
+        text-align:center;
+        /* padding: 12.5%; */
+        margin: auto ;
+        font-size: 55%; 
+    }
+    .header-content{
+        padding: 3px;
+        font-size: 5px;
+    }
+}
+@media (max-width:500px){
+        .showcase{
+            padding: 0px;
+        }   
+        .header-content{
+            display: none;
+        }
+    }
+.abouth1{
+    text-align: center;
+}

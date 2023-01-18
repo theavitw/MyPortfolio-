@@ -1,0 +1,110 @@
+.project-card {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 10px; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.725);
+  }
+img{
+  width:100%;
+  height: 100%  ;
+}
+  .project-image-container {
+    width: 100%;
+    height: 100vh;
+    
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .project-card-overlay {
+    position: absolute;
+    top: 25%; 
+    left: 25%;
+    width: 100vh;
+    
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.614);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-card:hover .project-card-overlay {
+    opacity: 1;
+    
+    
+    /* align-self: center; */
+  }
+  
+  .project-card-text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .project-description {
+    position: relative !important;
+    
+    font-size: 1rem;
+    display: flex;  
+  }
+.c1{
+  top: 60vh;
+}
+.c2
+{
+  top: 0;
+  
+}
+.c3{
+  top: 30vh;
+}
+.dd{
+  
+  align-self: center;
+  width:auto;
+  border-radius: 20px;
+}
+p{
+  padding: 0;
+  /* margin: 2%; */
+  margin: 0;
+}
+
+.ggg{
+  height: 130vh;
+  width: 110vh;
+  
+  
+}
+.divv{
+  display: flex;
+}
+.A45{
+  height: 5rem;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.518);
+  color: rgb(0, 0, 0);
+  border: 0;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin-left: 5rem;
+}
+.A45 a{
+  color: rgba(255, 255, 255, 0.851);
+}
