@@ -17,7 +17,7 @@ function Python() {
             <h2 className="project-title">Calculator</h2>
             <p className="project-description">Python Based Calculator </p>
             <p>PYTHON</p>
-            <a href="https://github.com/theavitw/Text-editor.git"><button className='bg-danger dd'>Github Link</button></a>
+            <a href="https://github.com/theavitw/P-Calcultor"><button className='bg-danger dd'>Github Link</button></a>
           </div>
          </div>
         </div>
@@ -28,7 +28,7 @@ function Python() {
             <h2 className="project-title">CollegeGuardian</h2>
             <p className="project-description">FrontEnd Project </p>
             <p>HTML + CSS + JS</p>
-            <a href="https://github.com/theavitw/Text-editor.git"><button className='bg-danger dd'>Github Link</button></a>
+            <a href="https://theavitw.github.io/CollageGuardia/"><button className='bg-danger dd'>Github Link</button></a>
           </div>
          </div>
         </div>
