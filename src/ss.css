@@ -243,3 +243,10 @@ ul{
 .abouth1{
     text-align: center;
 }
+.fa{
+    font-size: 26px
+}
+.icon{
+    display: inline-block;
+    padding: 0px 6px 0px 6px;
+}
