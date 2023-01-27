@@ -13,7 +13,11 @@
     justify-content: center;
   }
   
-  
+   @media (max-width: 800px) {
+    .project-image-container {
+      height: 28vh;
+    }
+  }
   
   .project-card-overlay {
     position: relative;
