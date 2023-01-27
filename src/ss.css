@@ -199,12 +199,13 @@ ul{
 @media (max-width: 800px) {
    html
     {
-        font-size: 50%;    
+        font-size: 55%;    
     }
     .navbar .logo ,.navbar .navitems{
         /* padding: 0px; */
         float: none;
         display: block;
+        height : inherit;
         width: 100%;
         text-align: center;
         /* margin:0px; */
