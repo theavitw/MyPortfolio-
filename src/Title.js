@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <div className={darkMode ? 'dark-background' : 'light-background'} onClick={() => setDarkMode(!darkMode)}>
       <h1>Welcome!</h1>
-      <h2>To my Profolio Website</h2>
+      <h2>To my Portfolio Website</h2>
       
     </div>
     
