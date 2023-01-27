@@ -205,7 +205,6 @@ ul{
         /* padding: 0px; */
         float: none;
         display: block;
-        height : inherit;
         width: 100%;
         text-align: center;
         /* margin:0px; */
@@ -223,14 +222,15 @@ ul{
     .features .box{
         float: none;
         width: 90%;
+        height: inherit;
         text-align:center;
         /* padding: 12.5%; */
         margin: auto ;
-        font-size: 55%; 
+        font-size: 85%; 
     }
     .header-content{
         padding: 3px;
-        font-size: 5px;
+        font-size: 10px;
     }
 }
 @media (max-width:500px){
@@ -245,7 +245,7 @@ ul{
     text-align: center;
 }
 .fa{
-    font-size: 26px
+    font-size: 30px
 }
 .icon{
     display: inline-block;
