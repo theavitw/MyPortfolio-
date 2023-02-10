@@ -1,7 +1,9 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import Nav from "react-bootstrap/Nav";
+import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
+// import { Link } from "react-router-dom";
 
-import Cards from "./Cards react";
+import Cards from "./Cards react"
 // import Cards from "./Cards react";
 
 import Footer from "./footer";
@@ -27,8 +29,11 @@ import Footer from "./footer";
 // import Mountingphase from './mountingphase'
 import "./index.css";
 // import Reactboostrap from "./Reactboostrap";
+// import Avbar from "./navbar/Navbar";
+// // import Title from "./Title";
+import HomePage from "./Homepage"
 import Avbar from "./navbar/Navbar";
-import Title from "./Title";
+
 function App() {
   return (
     <>
