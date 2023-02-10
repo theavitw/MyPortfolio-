@@ -33,10 +33,8 @@ function App() {
   return (
     <>
       <Avbar />
-      <br />
-      <Title/>
-      <br />
-      <Cards />
+      <HomePage />
+      <Cards/>
       <Footer />
     </>
   );
